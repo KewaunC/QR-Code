@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Space+Mono&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+ --white: hsl(0, 0%, 100%);
+--light-gray: hsl(212, 45%, 89%);
+--grayish-blue: hsl(220, 15%, 55%);
+--dark-blue: hsl(218, 44%, 22%);
+}
+
+body{
+    font-family: Outfit, sans-serif;
+    font-size: 14px;
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.25rem;
+    min-height: 100vh;
+}
+
+img{
+    max-width: 100%;
+    border-radius: 10px;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: var(--white);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+    margin-bottom: 15px;
+    height: 40vh;
+}
+
+
+.attribution { 
+   font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
